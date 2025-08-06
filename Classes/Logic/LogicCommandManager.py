@@ -1,0 +1,135 @@
+from Classes.Commands.Client.LogicPurchaseOfferCommand import LogicPurchaseOfferCommand
+from Classes.Commands.Client.LogicSetPlayerNameColorCommand import LogicSetPlayerNameColorCommand
+from Classes.Commands.Client.LogicSetPlayerThumbnailCommand import LogicSetPlayerThumbnailCommand
+from Classes.Commands.Client.LogicGatchaCommand import LogicGatchaCommand
+from Classes.Commands.Server.LogicChangeAvatarNameCommand import LogicChangeAvatarNameCommand
+from Classes.Commands.Server.LogicGiveDeliveryItemsCommand import LogicGiveDeliveryItemsCommand
+from Classes.Commands.Client.LogicSelectSkinCommand import LogicSelectSkinCommand
+from Classes.Commands.Client.LogicSelectCharacterCommand import LogicSelectCharacterCommand
+from Classes.Commands.Server.LogicClaimTailRewardCommand import LogicClaimTailRewardCommand
+from Classes.Commands.Client.LogicPushasePowerPointsCommand import LogicPushasePowerPointsCommand
+from Classes.Commands.Server.LogicLevelUpCommand import LogicLevelUpCommand
+
+from Classes.Commands.Client.LogicMasteryRoadRewardCommand import LogicMasteryRoadRewardCommand
+
+from Classes.Commands.Client.LogicStarRoadRewardCommand import LogicStarRoadRewardCommand
+
+from Classes.Commands.Server.LogicSetSupportedCreatorCommand import LogicSetSupportedCreatorCommand
+
+from Classes.Commands.Client.LogicStarRoadClaimCommand import LogicStarRoadClaimCommand
+
+from Classes.Commands.Client.LogicSetPlayerBattleCardCommand import LogicSetPlayerBattleCardCommand
+
+from Classes.Commands.Client.LogicSetPlayerFavoriteBrawlerCommand import LogicSetPlayerFavoriteBrawlerCommand
+
+from Classes.Commands.Client.LogicStarRoadClaimBrawlerCommand import LogicStarRoadClaimBrawlerCommand
+
+from Classes.Commands.Server.LogicStarRoadUpdateCommand import LogicStarRoadUpdateCommand
+
+from Classes.Commands.Client.LogicClaimRankUpRewardCommand import LogicClaimRankUpRewardCommand
+
+
+class LogicCommandManager:
+    commandsList = {
+        201: LogicChangeAvatarNameCommand,
+        202: 'LogicDiamondsAddedCommand',
+        203: LogicGiveDeliveryItemsCommand,
+        204: 'LogicDayChangedCommand',
+        205: 'LogicDecreaseHeroScoreCommand',
+        206: 'LogicAddNotificationCommand',
+        207: 'LogicChangeResourcesCommand',
+        208: 'LogicTransactionsRevokedCommand',
+        209: 'LogicKeyPoolChangedCommand',
+        210: 'LogicIAPChangedCommand',
+        211: 'LogicOffersChangedCommand',
+        212: 'LogicPlayerDataChangedCommand',
+        213: 'LogicInviteBlockingChangedCommand',
+        214: 'LogicGemNameChangeStateChangedCommand',
+        215: LogicSetSupportedCreatorCommand,
+        216: 'LogicCooldownExpiredCommand',
+        217: 'LogicProLeagueSeasonChangedCommand',
+        218: 'LogicBrawlPassSeasonChangedCommand',
+        219: 'LogicBrawlPassUnlockedCommand',
+        220: 'LogicHerowinQuestsChangedCommand',
+        221: 'LogicTeamChatMuteStateChangedCommand',
+        222: 'LogicRankedSeasonChangedCommand',
+        223: 'LogicCooldownAddedCommand',
+        224: 'LogicSetESportsHubNotificationCommand',
+        225: LogicStarRoadUpdateCommand,
+        500: LogicGatchaCommand,
+        503: 'LogicClaimDailyRewardCommand',
+        504: 'LogicSendAllianceMailCommand',
+        505: LogicSetPlayerThumbnailCommand,
+        506: LogicSelectSkinCommand,
+        507: 'LogicUnlockSkinCommand',
+        508: 'LogicChangeControlModeCommand',
+        509: 'LogicPurchaseDoubleCoinsCommand',
+        511: 'LogicHelpOpenedCommand',
+        512: 'LogicToggleInGameHintsCommand',
+        514: 'LogicDeleteNotificationCommand',
+        515: 'LogicClearShopTickersCommand',
+        517: LogicClaimRankUpRewardCommand,
+        518: 'LogicPurchaseTicketsCommand',
+        519: LogicPurchaseOfferCommand,
+        520: LogicLevelUpCommand,
+        521: 'LogicPurchaseHeroLvlUpMaterialCommand',
+        522: 'LogicHeroSeenCommand',
+        523: 'LogicClaimAdRewardCommand',
+        524: 'LogicVideoStartedCommand',
+        525: LogicSelectCharacterCommand,
+        526: 'LogicUnlockFreeSkinsCommand',
+        527: LogicSetPlayerNameColorCommand,
+        528: 'LogicViewInboxNotificationCommand',
+        529: 'LogicSelectStarPowerCommand',
+        530: 'LogicSetPlayerAgeCommand',
+        531: 'LogicCancelPurchaseOfferCommand',
+        532: 'LogicItemSeenCommand',
+        533: 'LogicQuestSeenCommand',
+        534: 'LogicPurchaseBrawlPassCommand',
+        535: LogicClaimTailRewardCommand,
+        536: 'LogicPurchaseBrawlpassProgressCommand',
+        537: 'LogicVanityItemSeenCommand',
+        538: 'LogicSelectEmoteCommand',
+        539: 'LogicBrawlPassAutoCollectWarningSeenCommand',
+        540: 'LogicPurchaseChallengeLivesCommand',
+        541: 'LogicClearESportsHubNotificationCommand',
+        542: 'LogicSelectGroupSkinCommand',
+        551: LogicPushasePowerPointsCommand,
+        567: LogicStarRoadClaimBrawlerCommand,
+        560: LogicStarRoadRewardCommand,
+        562: LogicStarRoadClaimCommand,
+        568: LogicSetPlayerBattleCardCommand,
+        569: LogicMasteryRoadRewardCommand,
+        570: LogicSetPlayerFavoriteBrawlerCommand
+    }
+
+    def getCommandsName(commandType):
+        try:
+            command = LogicCommandManager.commandsList[commandType]
+        except KeyError:
+            command = str(commandType)
+        if type(command) == str:
+            return command
+        else:
+            return command.__name__
+
+    def commandExist(commandType):
+        return (commandType in LogicCommandManager.commandsList.keys())
+
+    def createCommand(commandType, commandPayload=b''):
+        commandList = LogicCommandManager.commandsList
+        if LogicCommandManager.commandExist(commandType):
+            print(LogicCommandManager.getCommandsName(commandType), "created")
+            if type(commandList[commandType]) == str:
+                pass
+            else:
+                return commandList[commandType](commandPayload)
+        else:
+            print(commandType, "skipped")
+            return None
+
+    def isServerToClient(commandType):
+        if 200 <= commandType < 500:
+            return True
+        elif 500 <= commandType:
+            return False
