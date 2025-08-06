@@ -13,7 +13,7 @@ class AllianceStreamEntryMessage(PiranhaMessage):
         self.writeVInt(0) #NumEvent
         self.writeVInt(0)
         self.writeVInt(1)
-        self.writeString("Bot")
+        self.writeString("MIUI Bot")
         self.writeVInt(2) #Role
         self.writeVInt(0)
         self.writeBoolean(False)
@@ -29,4 +29,4 @@ class AllianceStreamEntryMessage(PiranhaMessage):
         return 24312
 
     def getMessageVersion(self):
-        return self.messageVersionBot
+        return self.messageVersion
