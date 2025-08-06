@@ -1,0 +1,298 @@
+[
+  {
+    "Brawler": 0,
+    "Name": "Shelly"
+  },
+  {
+    "Brawler": 1,
+    "Name": "Colt"
+  },
+  {
+    "Brawler": 2,
+    "Name": "Bull"
+  },
+  {
+    "Brawler": 3,
+    "Name": "Brock"
+  },
+  {
+    "Brawler": 4,
+    "Name": "Ricochet"
+  },
+  {
+    "Brawler": 5,
+    "Name": "Spike"
+  },
+  {
+    "Brawler": 6,
+    "Name": "Barley"
+  },
+  {
+    "Brawler": 7,
+    "Name": "Jessie"
+  },
+  {
+    "Brawler": 8,
+    "Name": "Nita"
+  },
+  {
+    "Brawler": 9,
+    "Name": "Dynamike"
+  },
+  {
+    "Brawler": 10,
+    "Name": "Elprimo"
+  },
+  {
+    "Brawler": 11,
+    "Name": "Mortis"
+  },
+  {
+    "Brawler": 12,
+    "Name": "Crow"
+  },
+  {
+    "Brawler": 13,
+    "Name": "Poco"
+  },
+  {
+    "Brawler": 14,
+    "Name": "Bo"
+  },
+  {
+    "Brawler": 15,
+    "Name": "Piper"
+  },
+  {
+    "Brawler": 16,
+    "Name": "Pam"
+  },
+  {
+    "Brawler": 17,
+    "Name": "Tara"
+  },
+  {
+    "Brawler": 18,
+    "Name": "Darryl"
+  },
+  {
+    "Brawler": 19,
+    "Name": "Penny"
+  },
+  {
+    "Brawler": 20,
+    "Name": "Frank"
+  },
+  {
+    "Brawler": 21,
+    "Name": "Gene"
+  },
+  {
+    "Brawler": 22,
+    "Name": "Tick"
+  },
+  {
+    "Brawler": 23,
+    "Name": "Leon"
+  },
+  {
+    "Brawler": 24,
+    "Name": "Rosa"
+  },
+  {
+    "Brawler": 25,
+    "Name": "Carl"
+  },
+  {
+    "Brawler": 26,
+    "Name": "Bibi"
+  },
+  {
+    "Brawler": 27,
+    "Name": "8bit"
+  },
+  {
+    "Brawler": 28,
+    "Name": "Sandy"
+  },
+  {
+    "Brawler": 29,
+    "Name": "Bea"
+  },
+  {
+    "Brawler": 30,
+    "Name": "Emz"
+  },
+  {
+    "Brawler": 31,
+    "Name": "Mr.p"
+  },
+  {
+    "Brawler": 32,
+    "Name": "Max"
+  },
+  {
+    "Brawler": 34,
+    "Name": "Jacky"
+  },
+  {
+    "Brawler": 35,
+    "Name": "Gale"
+  },
+  {
+    "Brawler": 36,
+    "Name": "Nani"
+  },
+  {
+    "Brawler": 37,
+    "Name": "Sprout"
+  },
+  {
+    "Brawler": 38,
+    "Name": "Surge"
+  },
+  {
+    "Brawler": 39,
+    "Name": "Colette"
+  },
+  {
+    "Brawler": 40,
+    "Name": "Amber"
+  },
+  {
+    "Brawler": 41,
+    "Name": "Lou"
+  },
+  {
+    "Brawler": 42,
+    "Name": "Byron"
+  },
+  {
+    "Brawler": 43,
+    "Name": "Edgar"
+  },
+  {
+    "Brawler": 44,
+    "Name": "Ruffs"
+  },
+  {
+    "Brawler": 45,
+    "Name": "Stu"
+  },
+  {
+    "Brawler": 46,
+    "Name": "Belle"
+  },
+  {
+    "Brawler": 47,
+    "Name": "Squeak"
+  },
+  {
+    "Brawler": 48,
+    "Name": "Grom"
+  },
+  {
+    "Brawler": 49,
+    "Name": "Buzz"
+  },
+  {
+    "Brawler": 50,
+    "Name": "Griff"
+  },
+  {
+    "Brawler": 51,
+    "Name": "Ash"
+  },
+  {
+    "Brawler": 52,
+    "Name": "Meg"
+  },
+  {
+    "Brawler": 53,
+    "Name": "Lolla"
+  },
+  {
+    "Brawler": 54,
+    "Name": "Fang"
+  },
+  {
+    "Brawler": 56,
+    "Name": "Eve"
+  },
+  {
+    "Brawler": 57,
+    "Name": "Janet"
+  },
+  {
+    "Brawler": 58,
+    "Name": "Bonnie"
+  },
+  {
+    "Brawler": 59,
+    "Name": "Otis"
+  },
+  {
+    "Brawler": 60,
+    "Name": "Sam"
+  },
+  {
+    "Brawler": 61,
+    "Name": "Gus"
+  },
+  {
+    "Brawler": 62,
+    "Name": "Buster"
+  },
+  {
+    "Brawler": 63,
+    "Name": "Chester"
+  },
+  {
+    "Brawler": 64,
+    "Name": "Gray"
+  },
+  {
+    "Brawler": 65,
+    "Name": "Mandy"
+  },
+  {
+    "Brawler": 66,
+    "Name": "Artie"
+  },
+  {
+    "Brawler": 67,
+    "Name": "Willow"
+  },
+  {
+    "Brawler": 68,
+    "Name": "Maisie"
+  },
+  {
+    "Brawler": 69,
+    "Name": "Fishtank"
+  },
+  {
+    "Brawler": 70,
+    "Name": "Cordelius"
+  },
+  {
+    "Brawler": 71,
+    "Name": "Doug"
+  },
+  {
+    "Brawler": 72,
+    "Name": "Pearl"
+  },
+  {
+    "Brawler": 73,
+    "Name": "Chuck"
+  },
+  {
+    "Brawler": 166,
+    "Name": ""
+  },
+  {
+    "Brawler": 177,
+    "Name": ""
+  }
+]
