@@ -1,0 +1,50 @@
+[
+   {
+      "ID":9,
+      "Status":0,
+      "CountdownTimer": 0,
+      "Timer": 99999,
+      "TokensReward": 0,
+      "Modifier": 0
+   },
+   {
+      "ID":93,
+      "Status":0,
+      "CountdownTimer": 0,
+      "Timer": 99999,
+      "TokensReward": 0,
+      "Modifier": 2
+   },
+   {
+      "ID":7,
+      "Status":0,
+      "CountdownTimer": 0,
+      "Timer": 99999,
+      "TokensReward": 0,
+      "Modifier": 0
+   },
+   {
+      "ID":539,
+      "Status":0,
+      "CountdownTimer": 0,
+      "Timer": 99999,
+      "TokensReward": 0,
+      "Modifier": 2
+   },
+   {
+      "ID":94,
+      "Status":0,
+      "CountdownTimer": 0,
+      "Timer": 99999,
+      "TokensReward": 0,
+      "Modifier": 2
+   },
+   {
+      "ID":7,
+      "Status":0,
+      "CountdownTimer": 0,
+      "Timer": 99999,
+      "TokensReward": 0,
+      "Modifier": 0
+   }
+]

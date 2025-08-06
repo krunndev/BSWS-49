@@ -1,0 +1,270 @@
+{
+  "Offers": [
+    {
+      "Rewards": [
+        {
+          "ItemType": 4,
+          "Amount": 1,
+          "BrawlerID": [16, 39],
+          "Extra": 212
+        }
+      ],
+      "Currency": 0,
+      "Cost": 79,
+      "Time": 172800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 149,
+      "Text": "СЕЗОННЫЙ СКИН",
+      "Background": "offer_candyland",
+      "Processed": false,
+      "TypeBenefit": 1,
+      "Benefit": 100,
+      "OneTimeOffer": true,
+      "BigOffer": false,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 100
+    },
+    {
+      "Rewards": [
+        {
+          "ItemType": 4,
+          "Amount": 1,
+          "BrawlerID": [16, 0],
+          "Extra": 52
+        }
+      ],
+      "Currency": 0,
+      "Cost": 0,
+      "Time": 172800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 0,
+      "Text": "СКИН: ПОДАРОК",
+      "Background": "offer_candyland",
+      "Processed": false,
+      "TypeBenefit": 1,
+      "Benefit": 100,
+      "OneTimeOffer": true,
+      "BigOffer": false,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 101
+    },
+    {
+      "Rewards": [
+        {
+          "ItemType": 3,
+          "Amount": 1,
+          "BrawlerID": [16, 35],
+          "Extra": 0
+        },
+        {
+          "ItemType": 4,
+          "Amount": 1,
+          "BrawlerID": [16, 35],
+          "Extra": 180
+        }
+      ],
+      "Currency": 0,
+      "Cost": 219,
+      "Time": 80800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 449,
+      "Text": "1-Й СЕЗОН",
+      "Background": "offer_bgr_stuntshow",
+      "Processed": false,
+      "TypeBenefit": 3,
+      "Benefit": 50,
+      "OneTimeOffer": true,
+      "BigOffer": true,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 102
+    },
+    {
+      "Rewards": [
+        {
+          "ItemType": 1,
+          "Amount": 100,
+          "BrawlerID": [0, 0],
+          "Extra": 0
+        }
+      ],
+      "Currency": 0,
+      "Cost": 0,
+      "Time": 172800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 0,
+      "Text": "минеты",
+      "Background": "offer_candyland",
+      "Processed": false,
+      "TypeBenefit": 1,
+      "Benefit": 100,
+      "OneTimeOffer": true,
+      "BigOffer": false,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 103
+    },
+    {
+      "Rewards": [
+        {
+          "ItemType": 3,
+          "Amount": 1,
+          "BrawlerID": [16, 39],
+          "Extra": 0
+        }
+      ],
+      "Currency": 0,
+      "Cost": 0,
+      "Time": 172800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 0,
+      "Text": "калет",
+      "Background": "offer_candyland",
+      "Processed": false,
+      "TypeBenefit": 1,
+      "Benefit": 100,
+      "OneTimeOffer": true,
+      "BigOffer": false,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 104
+    },
+    {
+      "Rewards": [
+        {
+          "ItemType": 46,
+          "Amount": 1,
+          "BrawlerID": [0, 0],
+          "Extra": 0
+        }
+      ],
+      "Currency": 0,
+      "Cost": 0,
+      "Time": 172800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 0,
+      "Text": "ГЕМЫ",
+      "Background": "offer_gems",
+      "Processed": false,
+      "TypeBenefit": 1,
+      "Benefit": 100,
+      "OneTimeOffer": true,
+      "BigOffer": false,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 105
+     },
+    {
+      "Rewards": [
+        {
+          "ItemType": 4,
+          "Amount": 1,
+          "BrawlerID": [16, 3],
+          "Extra": 91
+        }
+      ],
+      "Currency": 5,
+      "Cost": 2500,
+      "Time": 172800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 0,
+      "Text": "CLUB SKIN",
+      "Background": "offer_candyland",
+      "Processed": false,
+      "TypeBenefit": 1,
+      "Benefit": 100,
+      "OneTimeOffer": true,
+      "BigOffer": false,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 14814
+    },
+    {
+      "Rewards": [
+        {
+          "ItemType": 1,
+          "Amount": 1000,
+          "BrawlerID": [0, 0],
+          "Extra": 0
+        }
+      ],
+      "Currency": 5,
+      "Cost": 100,
+      "Time": 172800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 0,
+      "Text": "CLUB OFFER",
+      "Background": "offer_candyland",
+      "Processed": false,
+      "TypeBenefit": 1,
+      "Benefit": 100,
+      "OneTimeOffer": false,
+      "BigOffer": false,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 1489
+    },
+    {
+      "Rewards": [
+        {
+          "ItemType": 1,
+          "Amount": 15000,
+          "BrawlerID": [0, 0],
+          "Extra": 0
+        }
+      ],
+      "Currency": 5,
+      "Cost": 2500,
+      "Time": 172800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 0,
+      "Text": "CLUB OFFER",
+      "Background": "offer_candyland",
+      "Processed": false,
+      "TypeBenefit": 1,
+      "Benefit": 100,
+      "OneTimeOffer": false,
+      "BigOffer": false,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 1444
+    },
+    {
+      "Rewards": [
+        {
+          "ItemType": 4,
+          "Amount": 1,
+          "BrawlerID": [16, 0],
+          "Extra": 612
+        }
+      ],
+      "Currency": 0,
+      "Cost": 0,
+      "Time": 172800,
+      "Claim": false,
+      "DailyOffer": false,
+      "OldPrice": 0,
+      "Text": "SHELLY SKIN GIFT 🎉",
+      "Background": "offer_candyland",
+      "Processed": false,
+      "TypeBenefit": 1,
+      "Benefit": 100,
+      "OneTimeOffer": false,
+      "BigOffer": false,
+      "ShopPanelLayouts": 1,
+      "ShopStyleSets": -1,
+      "OfferID": 1445
+    }
+  ]
+}
